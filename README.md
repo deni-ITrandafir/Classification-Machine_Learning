@@ -6,6 +6,9 @@ The classification task is implemented using three machine learning models: Rand
 The project involves the following steps:
 
 Image Preprocessing: Images are loaded, resized to 255x255 pixels, and normalized to improve model performance and computational efficiency.
+
 Model Training: Each model is trained on the preprocessed training data, with hyperparameters chosen based on validation set performance.
+
 Evaluation: The models are evaluated on the test set using accuracy, classification reports, and confusion matrices. A visualization of correctly and incorrectly classified images is provided to better understand model behavior.
+
 The primary goal is to identify the most accurate and reliable approach for car classification while analyzing the strengths and weaknesses of each model. This project demonstrates the practical application of machine learning techniques in image classification tasks.
